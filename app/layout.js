@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Analytics } from '@vercel/analytics/react';
-
+import { Analytics } from "@vercel/analytics/react";  // ✅ Import Vercel Analytics
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +15,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {children}
         <Analytics />  {/* ✅ Add Vercel Analytics Here */}
-        </body>
+      </body>
     </html>
   );
 }
