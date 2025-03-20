@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Hijri Islamic Calendar",
-  description: "Hijri to Gregorian Coversion Tool",
+  description: "Hijri to Gregorian Conversion Tool",
 };
 
 export default function RootLayout({ children }) {
