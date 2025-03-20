@@ -8,6 +8,8 @@ import CalSelector from "@/components/cal-selector";
 import NextHijriDate from "@/components/NextHijriDate";
 import Footer from "@/components/footer";
 import SEOHead from "@/components/SEOHead";
+import Widget from "@/components/widget"; // ✅ Import the Widget component
+
 
 const translations = {
   en: {
@@ -67,13 +69,22 @@ export default function Home() {
           <section className="bg-gray-300 flex justify-center items-center w-full p-4 rounded-box">
             <NextHijriDate />
           </section>
+
+          {/* ✅ Display the Widget iframe here */}
+      <section className="bg-gray-300 flex justify-center items-center w-full p-4 rounded-box">
+        <Widget />
+
+      </section>
           
         </div>
+
+        
 
         {/* Footer - Sticks to bottom */}
         <section className="footer-center mt-auto w-full max-w-md">
           <Footer lang={lang} />
         </section>
+
       </main>
     </>
   );
