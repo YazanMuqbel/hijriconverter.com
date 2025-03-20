@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
 import 'react-datepicker/dist/react-datepicker.css';
-
+import GregHijriBtn from '@/components/greg-hijri-btn';
 
 const DatePicker = dynamic(() => import('react-datepicker'), { ssr: false });
 
