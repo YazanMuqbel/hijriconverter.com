@@ -35,7 +35,7 @@ const SEOHead = ({ title, description, url, image }) => {
         <link rel="manifest" href="/site.webmanifest" />
 
       {/*DataFast Analytics & Tracking */}
-      <script
+<script
   defer
   data-website-id="67db34a4e998975001d0596a"
   data-domain="hijriconverter.com"

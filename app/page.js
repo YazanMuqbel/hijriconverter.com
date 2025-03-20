@@ -18,7 +18,7 @@ const translations = {
     pageImage: "https://www.mywebsite.com/og-image.jpg",
   },
   ar: {
-    makkahTime: "التاريخ حسب توقيت مكة المكرمة اليوم",
+    makkahTime: "التاريخ حسب توقيت مكة المكرمة",
     pageTitle: "محول التاريخ الهجري والميلادي | موقعي",
     pageDescription: "حوّل التواريخ بين التقويمين الهجري والميلادي بدقة باستخدام أداتنا المجانية.",
     pageURL: "https://www.mywebsite.com/arabic",
