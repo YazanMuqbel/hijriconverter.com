@@ -12,6 +12,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {/* ✅ Google verification tag here */}
+        <meta name="google-site-verification" content="sTltP8i6mN_Tp2Yl46U_iub-cWD8cApOoakNho0ocyE" />
+        <meta name="robots" content="index, follow" />
+      </head>
       <body className={inter.className}>
         {children}
         <Analytics />  {/* ✅ Add Vercel Analytics Here */}
