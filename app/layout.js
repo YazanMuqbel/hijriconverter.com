@@ -5,8 +5,25 @@ import { Analytics } from "@vercel/analytics/react";  // ✅ Import Vercel Analy
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Hijri Islamic Calendar",
-  description: "Hijri to Gregorian Conversion Tool",
+  title: "Hijri Converter | Islamic Calendar & Date Conversion",
+  description:
+    "Convert dates between Hijri and Gregorian calendars using the most accurate Islamic calendar converter based on Makkah time.",
+  openGraph: {
+    title: "Hijri Converter | Islamic Calendar & Date Conversion",
+    description:
+      "Convert dates between Hijri and Gregorian calendars with accuracy. Powered by the Umm al-Qura calendar.",
+    url: "https://hijriconverter.com",
+    siteName: "Hijri Converter",
+    type: "website",
+    images: [
+      {
+        url: "https://hijriconverter.com/kaabah.png", // Change this to your real image URL
+        width: 1200,
+        height: 630,
+        alt: "Hijri Converter - Convert Hijri and Gregorian Dates",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {

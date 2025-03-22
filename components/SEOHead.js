@@ -6,10 +6,6 @@ const SEOHead = ({ title, description, url, image }) => {
     <>
       <Head>
 
-        {/* ✅ Google Verification Codeß */}
-      <meta name="google-site-verification" content="sTltP8i6mN_Tp2Yl46U_iub-cWD8cApOoakNho0ocyE" />
-
-
         {/* ✅ Primary Meta Tags */}
         <title>{title}</title>
         <meta name="description" content={description} />
