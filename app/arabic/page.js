@@ -1,5 +1,5 @@
 // app/arabic/page.js
-//import ClientPageWrapper from "@/components/ClientPageWrapper";
+import Home from "../page"; // Reuse the English component with Arabic content
 
 export const metadata = {
   title: "محول التاريخ الهجري | تحويل بين الهجري والميلادي",
@@ -22,6 +22,7 @@ export const metadata = {
   },
 };
 
-//export default function ArabicPage() {
-  //return <ClientPageWrapper lang="ar" />;
-//}
+// ✅ This must return something
+export default function ArabicPage() {
+  return <Home />;
+}
