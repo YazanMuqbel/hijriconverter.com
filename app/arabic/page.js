@@ -1,5 +1,5 @@
 // app/arabic/page.js
-import ClientPageWrapper from "@/components/ClientPageWrapper";
+//import ClientPageWrapper from "@/components/ClientPageWrapper";
 
 export const metadata = {
   title: "محول التاريخ الهجري | تحويل بين الهجري والميلادي",
@@ -22,6 +22,6 @@ export const metadata = {
   },
 };
 
-export default function ArabicPage() {
-  return <ClientPageWrapper lang="ar" />;
-}
+//export default function ArabicPage() {
+  //return <ClientPageWrapper lang="ar" />;
+//}
